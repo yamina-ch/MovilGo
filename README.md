@@ -221,3 +221,6 @@ Esto permite mantener la plataforma gratuita para los compradores y accesible pa
 ## EL PDF de la BBDD esta esta en esta misma carpeta con el nombre: BD_pagina_Web.pdf
 
 ## El zip esta en drive (pesaba mucho): https://drive.google.com/file/d/1-OrAtpbXu0AQgdSSRb46huEOl0x639uN/view?usp=sharing
+
+<img width="1942" height="852" alt="imagen" src="https://github.com/user-attachments/assets/137ab48a-dc06-41d1-922b-2f453b77bb0c" />
+
