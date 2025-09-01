@@ -1,0 +1,232 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="proWeb.Site1" %>
+
+<!DOCTYPE html>
+<html lang="es">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MOVILGO</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Bootstrap + Font Awesome -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+    <link href="assets/css/main.css" rel="stylesheet" />
+
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+        }
+
+        /* HEADER */
+        .header {
+            background-color: #d1d1d1;
+            padding: 20px 0;
+            position: relative; 
+            z-index: 10;       
+        }
+
+        .logo h1 {
+            font-weight: 700;
+            font-size: 24px;
+            margin: 0;
+            color: #222;
+        }
+
+        .navmenu {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+            padding-left: 0;
+            margin: 0;
+        }
+
+        .navmenu .nav-link {
+            text-decoration: none;
+            font-weight: 600;
+            color: #333;
+            padding: 6px 10px;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .navmenu .nav-link:hover,
+        .navmenu .nav-selected {
+            color: #0d6efd;
+            border-bottom: 2px solid #0d6efd;
+        }
+
+        /* Menú de íconos */
+        .menu-icons {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .menu-icons a {
+            font-size: 18px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .menu-icons a:hover {
+            color: #0d6efd;
+        }
+
+        /* FOOTER */
+        .footer {
+            background-color: #f1f1f1;
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .footer .social-links a {
+            margin: 0 10px;
+            font-size: 20px;
+            color: #555;
+        }
+
+        .footer .social-links a:hover {
+            color: #0d6efd;
+        }
+
+        
+        .dropdown-menu-user {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            margin-top: 10px;
+            min-width: 180px;
+            z-index: 1000;
+            padding: 10px 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dropdown-item-user {
+            display: block;
+            width: 100%;
+            padding: 12px 20px;
+            color: #000;
+            text-align: left;
+            font-weight: 500;
+            text-decoration: none;
+            transition: background 0.2s ease;
+            white-space: nowrap;
+        }
+
+        .dropdown-item-user:hover {
+            background-color: #f5f5f5;
+            color: #0d6efd;
+        }
+
+        .master_nav {
+            padding: 10px 15px;
+            color: #333;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .master_nav:hover {
+            color: #0d6efd;
+            text-decoration: underline;
+        }
+
+        .nav-link .dropdown-item {
+            padding: 10px 20px;
+            color: #000;
+            background-color: #fff;
+        }
+
+      
+        .AspNet-Menu,
+        .AspNet-Menu-Horizontal,
+        .AspNet-Menu-Vertical {
+            z-index: 9999 !important;
+            position: absolute !important;
+        }
+
+        body, html, form {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- ======= HEADER ======= -->
+        <header class="header">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="logo">
+                    <h1>MOVILGO</h1>
+                </div>
+
+                <!-- Menú ASP.NET estilizado -->
+                <asp:Menu ID="MainMenu" runat="server" CssClass="navmenu" Orientation="Horizontal"
+                          StaticDisplayLevels="1"
+                          IncludeStyleBlock="false"
+                          StaticMenuItemStyle-CssClass="nav-link"
+                          StaticSelectedStyle-CssClass="nav-selected">
+                    <Items>
+                        <asp:MenuItem Text="Inicio" NavigateUrl="~/Default.aspx" />
+                        <asp:MenuItem Text="Acerca de" NavigateUrl="~/About.aspx" />
+                        <asp:MenuItem Text="Catálogo" NavigateUrl="~/catalogo.aspx" />
+                        <asp:MenuItem Text="Venta" NavigateUrl="~/Venta.aspx" />
+                        <asp:MenuItem Text="Servicios" NavigateUrl="~/Default.aspx#servicios" />
+                        <asp:MenuItem Text="Contacto" NavigateUrl="~/contacto.aspx" />
+                    </Items>
+                </asp:Menu>
+
+                <!-- Íconos funcionales -->
+                <div class="menu-icons">
+                    <asp:HyperLink ID="lnkCart" runat="server" NavigateUrl="~/Carrito.aspx" ToolTip="Carrito">
+                        <i class="fas fa-shopping-cart"></i>
+                    </asp:HyperLink>
+
+                    <asp:HyperLink ID="lnkFav" runat="server" NavigateUrl="~/Favorito.aspx" ToolTip="Favoritos">
+                        <i class="fas fa-heart"></i>
+                    </asp:HyperLink>
+
+                    <!-- Menú superior (usuario) -->
+                    <asp:Menu ID="MenuSuperior" runat="server" Orientation="Horizontal" CssClass="nav-link"
+                              OnMenuItemClick="MenuSuperior_MenuItemClick">
+                        <StaticMenuItemStyle CssClass="master_nav" />
+                        <DynamicMenuItemStyle CssClass="nav-link dropdown-item" />
+                        <Items>
+                            <asp:MenuItem Text="👤 Iniciar sesión" Value="UsuarioMenu" />
+                        </Items>
+                    </asp:Menu>
+                </div>
+            </div>
+        </header>
+
+        <!-- ======= CONTENIDO PRINCIPAL ======= -->
+        <main class="main">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+        </main>
+
+        <!-- ======= FOOTER ======= -->
+        <footer class="footer">
+            <div class="container">
+                <p>© <strong>MOVILGO</strong> - Todos los derechos reservados</p>
+                <div class="social-links d-flex justify-content-center">
+                    <a href="https://www.instagram.com/movilgo_ua/?next=%2F"target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61576424646517"target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.threads.com/@movilgo_ua"target="_blank"><i class="fab fa-threads"></i></a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap JS -->
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    </form>
+</body>
+</html>
