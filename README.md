@@ -1,4 +1,4 @@
-🌐 HADA - Práctica Grupal
+
 
 	👤  NUESTRO EQUIPO  👤
 👤 Rahma Chibane
@@ -12,20 +12,7 @@
 	* yc27-ua
 	
 
-👤 Sabrine Bentaleb Kheyar
 
-   	* 50593991V
-   	* sbk8-ua
-
-👤  Mariam Ben yahya
-
-	* Y9681222F
- 	* mby3-ua
-
-👤 Rachid Mouradi Laouichi
-
-	* 60464283C
-	* rm109-ua
 
 
 ## 👑 Administradores
@@ -167,25 +154,11 @@ Accesible únicamente para **usuarios registrados**, esta sección permite una g
 
 
 
-| 👤 **Miembro del Grupo**        | 🛠️ **Trabajo Realizado** |
-|-------------------------------|---------------------------|
-| **Rahma Chibane**             |    ENMarcas,CADMarcas,ENCategoria,CADcategoria,ENCatalogo,CADCatalogo,ENVenta, CADVenta ,About.aspx ,catalogo.aspx, site1.Master , venta.aspx , base de datos  |
-| **Yamina Chibane**            |ENUsuario,CADUsuario,login,regiter,forgotpassword,ENContacto,CADContacto,contacto.aspx, Base de datos, DeFault,user.aspx(usuario normal/admin),admin.aspx ,listado de usuarios ,Mejoras(top 10 ventas),producto.apsx(listado de articulos) . |								
-| **Sabrine Bentaleb Kheyar**   |ENArticulo,CADArticulo,articulo.aspx,.aspx.cs ,ENComentario,CADComentario ,ENProveedor,CADProveedor,proveedor.aspx .aspx.cs y creadas redes sociales  |
-| **Mariam Ben Yahya**          |ENPedido, CADPedido, pedido.aspx,.aspx.cs, ENLineaPedido, CADLineaPedido, ENMetodoPago, CADMetodoPago, metodopago.aspx,.aspx.cs, ENTransaccion, CADTransaccion, transaccion.aspx,.aspx.cs, confirmacion.aspx, .aspx.cs, Mejoras.aspx (Top 10 clientes) |
-| **Rachid Mouradi Laouichi**   |ENCarrito,CADCarrito,ENLineaCarrito,CADLineaCarrito,ENListaFavoritos,CADListaFavoritos,carrito.aspx,carrito.aspx.cs,favoritos.aspx,favoritos.aspx.cs|
-
-👩‍💻📚💼 TRABAJO SABRINE BENTALEB KHEYAR 👩‍💻📚 💼 : 
-- Elaborado EN Y CAD Comentario : se muestran los comentarios a todos (parte pública) pero solo podrán comentar los logeados(parte privada), por lo que cuando un usuario le de a la opción "agregar comentario " se le llevará automáticamente a la página de log in o registrarse  , además de comentar podrán eliminar o editar el comentario . El admin podrá comentar también y podrá eliminar cualquier comentario , pero no podrá editar el comentario de los demás.
-
-- ENArticulo, CADArticulo, articulo.aspx,articulo.aspx.cs : Elaborado con un excelente diseño , se podrá ver el stock dle articulo , el modelo , color , marca,proveedor , vendedor , estado , batería ,etc . Además se podrá ver la valoración de cada artículo , que es el resultado de la media de varias valoraciones a ese mismo artículo (todo esto parte pública) En cuanto a la parte privada , a parte de ver todo esto se podrá dar una valoración al artículo , se podrá añadir a favoritos , añadir al carrito o comprar en ese mismo instante siempre y cuando esté disponible el artículo . 
-
-- ENproveedor, CADProveedor ,proveedor.aspx,proveedor.aspx.cs : Este apartado lo podrá ver el admin , podrá añadir proveedores , eliminarlos , editar sus datos y además ver qué productos tiene cada proveedor . A la hora de eliminar un proveedor se verá si tiene artículos relacionados con nosotros , si no tiene se podrá eliminar . Además se le facilita al administrador el trabajo en cuanto a la búsqueda de proveedores ya que se podrá buscar por nombre,cif,dirección , etc . También se podrá listar a los proveedores en orden de lista ascendente o descendente por si no recuerda muy bien su nombre , si busca proveedores que no lleve apuntados su dirección también hay un filtro que muestra solo a los proveedores que tienen la dirección registrada o no . Se podrá imprimir todos los proveedores , tener un pdf de ello , csv , copiar datos ,etc.
-
-- Creación de redes sociales : consideramos que las redes sociales nos harán llegar a un público más amplio , por lo que tenemos Facebook , Instagram y threads donde publicamos todos nuestros productos y novedades .
 
 
-👩‍💻📚💼 TRABAJO de Yamina Chibane  👩‍💻📚 💼 
+
+
+
 - He creado base datos con Rahma Chibane.
   
 -EN Default he hecho secciones de servicios ,contaccto y testiomonios visuales .
@@ -236,56 +209,8 @@ Accesible únicamente para **usuarios registrados**, esta sección permite una g
 
 - mejoras.aspx : hecho la parte de ganancia y  meta mensual y un gráfico que relaciona las ventas mensuales con el rendimiento por mes.
 
-👩‍💻📚💼 TRABAJO RACHID MOURADI 👩‍💻📚 💼 : 
-
-- He desarrollado la funcionalidad del carrito de compras y lista de favoritos dentro de la parte pública de la aplicación. Estas funciones están diseñadas para mejorar la experiencia del usuario antes de realizar una compra.
-
-- Para poder añadir productos tanto al carrito como a la lista de favoritos, el usuario debe iniciar sesión. Esto garantiza que cada acción esté asociada correctamente con la cuenta del usuario. Una vez autenticado, el usuario puede agregar productos a su carrito o a su lista de favoritos, y posteriormente visualizar en cualquier momento los artículos que ha guardado en cada sección.
-
-- Estas características forman parte esencial de la experiencia de compra, ya que permiten a los usuarios organizar sus productos de interés y gestionar su proceso de compra de manera más eficiente.
 
 
-- En CADCarrito tenemos por ejemplo la creación de carritos , lectura y eliminación de carritos y sus líneas asociadas , obtención de artículos contenidos en un carrito determinado , recuperación de carritos existentes ,etc.
-
-- La clase CADListaFavoritos permite aadir artículos a favoritos evitando duplicados , eliminar y actualizar elementos en la lista de favoritos , etc.
-
-- CADListaCarrito sirve para agregar,leer,actualizar y  eliminar artículos del carrito de compras.
-
-- En cuanto a carrito.aspx y favorito.aspx se ha intentado hacer la página lo más entendible y sencilla  posible para los usuarios con buenos diseños .
-- 
-👩‍💻📚💼 TRABAJO Mariam Ben yahya👩‍💻📚💼
-
-pedido.aspx: Página de envío con validación de datos y cálculo automático de costes.
-
-metodopago.aspx: Formulario seguro para el ingreso de datos de tarjeta de crédito con validaciones.
-
-confirmacion.aspx: Página final que muestra el resumen de la compra y permite la descarga de la factura en PDF.
-
-🧩 Componentes clave desarrollados (EN y CAD):
-ENPedido, CADPedido: Gestión completa de los pedidos en base de datos.
-
-ENLineaPedido, CADLineaPedido: Control y almacenamiento de los ítems dentro de un pedido.
-
-ENTransaccion, CADTransaccion: Módulo para registrar las transacciones con cálculo automático de comisiones (empresa y vendedor).
-
-ENMetodoPago, CADMetodoPago: Seguridad y control de los métodos de pago del usuario.
-
-✅ Funcionalidades implementadas:
-Checkout completo con barra de progreso visual.
-
-Validación en tiempo real de tarjetas (fecha, formato, campos obligatorios...).
-
-Cálculo de comisiones: 10% para la empresa y 90% para el vendedor.
-
-Generación de facturas en formato HTML y PDF descargables.
-
-Sistema automático de numeración para los pedidos.
-
-Integración total con la base de datos en todas las fases del proceso.
-
-Página de transacciones (transaccion.aspx) para que el vendedor vea los productos que ha vendido junto con:(nombre del producto, precio de venta, comisión, beneficio neto)
-
-Página de mejoras: muestra el Top 10 clientes con más compras en base a un SQL optimizado.
 
 ## Modelo de negocio
 MovilGo ganará dinero cobrando una comisión por cada venta realizada en la plataforma.
@@ -293,5 +218,5 @@ Cuando un usuario vende un dispositivo a través del marketplace, la empresa ret
 Esto permite mantener la plataforma gratuita para los compradores y accesible para todos los vendedores.
 
 ## EL PDF de la BBDD esta esta en esta misma carpeta con el nombre: BD_pagina_Web.pdf
-## La presentación esta en la carpeta principal del proyecto
+
 ## El zip esta en drive (pesaba mucho): https://drive.google.com/file/d/1-OrAtpbXu0AQgdSSRb46huEOl0x639uN/view?usp=sharing
