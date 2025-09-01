@@ -218,7 +218,9 @@ MovilGo ganará dinero cobrando una comisión por cada venta realizada en la pla
 Cuando un usuario vende un dispositivo a través del marketplace, la empresa retiene un pequeño porcentaje del precio final como comisión por el uso del servicio.
 Esto permite mantener la plataforma gratuita para los compradores y accesible para todos los vendedores.
 
-## EL PDF de la BBDD esta esta en esta misma carpeta con el nombre: BD_pagina_Web.pdf
+## EL PDF de la BBDD esta en esta misma carpeta con el nombre: BD_pagina_Web.pdf
+
+## El video representativo del proyecto MovilGo tienda esta en esta misma carpeta con el nombre: MovilGo.mp4
 
 ## El zip esta en drive (pesaba mucho): https://drive.google.com/file/d/1-OrAtpbXu0AQgdSSRb46huEOl0x639uN/view?usp=sharing
 
