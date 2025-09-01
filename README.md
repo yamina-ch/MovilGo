@@ -19,7 +19,6 @@
 
 | Usuario  | Email                | Contraseña   |
 |----------|----------------------|--------------|
-
 | yc       | yc27@gcloud.ua.es     | amina1234    |
 | rc       | rc75@gcloud.ua.es     | rahma1234    |
 
