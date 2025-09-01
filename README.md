@@ -3,12 +3,12 @@
 	👤  NUESTRO EQUIPO  👤
 👤 Rahma Chibane
 
-	* Y7576477S  
+	
 	* rc75-ua
 
 👤 Yamina Chibane 
 
-	* Y7576480H   
+	  
 	* yc27-ua
 	
 
@@ -19,7 +19,7 @@
 
 | Usuario  | Email                | Contraseña   |
 |----------|----------------------|--------------|
-| cs       | rachidben@gcloud.ua.es | rachid1234   |
+
 | yc       | yc27@gcloud.ua.es     | amina1234    |
 | rc       | rc75@gcloud.ua.es     | rahma1234    |
 
@@ -151,6 +151,8 @@ Accesible únicamente para **usuarios registrados**, esta sección permite una g
 * Web disponible en varios idiomas.
 
 * Diseño responsive moderno con Bootstrap.
+
+
 
 
 
