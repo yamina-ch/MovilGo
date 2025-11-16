@@ -225,6 +225,7 @@ Esto permite mantener la plataforma gratuita para los compradores y accesible pa
 ## El zip esta en drive (pesaba mucho): https://drive.google.com/file/d/1-OrAtpbXu0AQgdSSRb46huEOl0x639uN/view?usp=sharing
 
 
+<img width="1080" height="519" alt="image" src="https://github.com/user-attachments/assets/9f0e9dfe-ba8b-48ea-bf35-d1e20b0c4a26" />
 
 
 
