@@ -1,15 +1,7 @@
 
 
 	👤  NUESTRO EQUIPO  👤
-👤 Rahma Chibane
-
-	
-	* rc75-ua
-
-👤 Yamina Chibane 
-
-	  
-	* yc27-ua
+👤 rama-ch, yamina-ch
 	
 
 
