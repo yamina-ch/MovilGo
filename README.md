@@ -176,6 +176,7 @@ Accesible únicamente para **usuarios registrados**, esta sección permite una g
  6468 5258
 
 
+👩‍💻📚💼 MI Trabajo  👩‍💻📚 💼
 
 - He desarrollado user.aspx perfil para usuarios normales y administradores que permite editar el perfil, cambiar la contraseña y eliminar la cuenta, utilizando SweetAlert para notificaciones,editar,y eliminar; se diferencia visualmente al mostrar el panel de administrador solo si el usuario es admin, y se usan las clases ENUsuario y CADUsuario para gestionar la lógica y el acceso a datos del perfil del usuario.
 
