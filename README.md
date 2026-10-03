@@ -202,6 +202,8 @@ Accesible únicamente para **usuarios registrados**, esta sección permite una g
 
 - mejoras.aspx : hecho la parte de ganancia y  meta mensual y un gráfico que relaciona las ventas mensuales con el rendimiento por mes.
 
+👩‍💻📚💼 Los demas son trabjos de otros compañeros :carrito,favorito,pago,articulo,proveedor etc  👩‍💻📚 💼
+
 
 
 
